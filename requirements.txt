@@ -9,6 +9,11 @@ aiohttp==3.8.3
 tgcrypto==1.2.5
 requests==2.28.2
 bs4==0.0.1
+youtube-search-python
+youtube-search
+yt-dlp==2023.2.17
+speedtest==0.0.1
+
 
 #---database---#
 pymongo[srv]==3.12.3
