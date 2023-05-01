@@ -14,7 +14,8 @@ from pytz import timezone
 from pyrogram.errors import BadRequest, Unauthorized
 
 if WEBHOOK:
-    from plugins import web_server 
+    from plugins import web_server
+    from aiohttp import web
 
 # Get logging configurations
 logging.config.fileConfig("logging.conf")
